@@ -47,7 +47,7 @@ const Hero = () => {
     <motion.section
       id="home"
       onMouseMove={handleMouseMove}
-      className="relative min-h-screen w-full overflow-hidden bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white pt-20"
+      className="relative min-h-screen w-full overflow-hidden bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white pt-20 "
     >
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">

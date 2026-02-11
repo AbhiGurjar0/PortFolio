@@ -138,7 +138,6 @@ const Contact = () => {
       ref={ref}
       className="relative py-20 lg:py-32 overflow-hidden bg-gradient-to-b from-black via-gray-900 to-black"
     >
-     
 
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
@@ -182,8 +181,8 @@ const Contact = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative group"
           >
-            <div className="absolute w-[60vh]  -inset-1 bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 rounded-3xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
-            <div className="w-[60vh] relative bg-gray-900/80 backdrop-blur-xl border border-gray-800 rounded-3xl p-6 lg:p-8">
+            <div className="absolute md:w-[60vh] w-full  -inset-1 bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 rounded-3xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+            <div className="md:w-[60vh] w-full relative bg-gray-900/80 backdrop-blur-xl border border-gray-800 rounded-3xl p-6 lg:p-8">
               <div className="flex items-center gap-3 mb-8">
                 <Send className="w-6 h-6 text-cyan-400" />
                 <h3 className="text-2xl font-bold text-white">
