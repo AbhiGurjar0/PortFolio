@@ -131,7 +131,7 @@ const About = () => {
           >
             <div className="relative rounded-3xl overflow-hidden border border-gray-800">
               <img
-                src="/src/assets/about.png"
+                src="/assets/about.png"
                 alt="About me"
                 className="w-full h-full object-cover"
               />

@@ -220,7 +220,7 @@ const Hero = () => {
                 <div className="relative rounded-2xl overflow-hidden">
                   <div className="aspect-square relative">
                     {/* Fallback/Placeholder */}
-                    <img src="/src/assets/hero2.png" alt="Profile" />
+                    <img src="/assets/hero2.png" alt="Profile" />
                     <div className="absolute inset-0 bg-gradient-to-br from-cyan-900/30 to-purple-900/30" />
 
                     {/* Floating Elements around image */}
