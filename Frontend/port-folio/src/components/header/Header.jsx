@@ -85,8 +85,6 @@ const Header = () => {
             ))}
           </nav>
 
-         
-
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -119,7 +117,9 @@ const Header = () => {
                 >
                   <div className="flex items-center gap-3">
                     <span className="text-xl">{item.icon}</span>
-                    <span className="font-semibold text-base">{item.label}</span>
+                    <span className="font-semibold text-base">
+                      {item.label}
+                    </span>
                   </div>
                   {activeSection === item.id && <ChevronRight size={18} />}
                 </motion.button>
@@ -133,10 +133,10 @@ const Header = () => {
       <div className="fixed top-0 left-0 right-0 h-1 z-[60]">
         <motion.div
           className="h-full bg-gradient-to-r from-cyan-500 to-purple-600"
-          style={{ 
-            scaleX: isScrolled ? 1 : 0, 
+          style={{
+            scaleX: isScrolled ? 1 : 0,
             originX: 0,
-            transition: { duration: 0.3 } 
+            transition: { duration: 0.3 },
           }}
         />
       </div>

@@ -51,27 +51,28 @@ export const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Fooddie",
-      description:
-        "Dynamic food delivery platform with interactive UI and order features",
+      title: "ExpenceTracker",
+      src: "/assets/ExpenseTracker.png",
+      description: "JavaScript-based personal expense tracker application",
       longDescription:
-        "A responsive food delivery application where users can browse restaurants, view menus, and simulate food ordering. Built with modern web technologies, this project highlights user-centric design and real-world interaction workflows.",
-      tags: ["HTML", "CSS", "JavaScript", "EJS"],
+        "ExpenceTracker_M is a streamlined personal finance tool that helps track income and expenses. Built with vanilla JavaScript, it emphasizes client-side logic, responsive interactivity, and easy budget management.",
+      tags: ["JavaScript", "Web"],
       category: ["fullstack"],
-      github: "https://github.com/AbhiGurjar0/Fooddie",
-      live: "https://fooddie.onrender.com",
+      github: "https://github.com/AbhiGurjar0/ExpenseTrackerFullStack",
+      live: "https://expensetracker-mgdk.onrender.com",
       features: [
-        "Restaurant browsing interface",
-        "Interactive menu display",
-        "Order simulation UI",
-        "Responsive layout",
+        "Income & expense logging",
+        "Responsive UI",
+        "Budget overview",
+        "Interactive lists",
       ],
-      color: "from-yellow-500 to-red-500",
-      icon: Globe,
+      color: "from-yellow-500 to-amber-500",
+      icon: Code2,
     },
     {
       id: 2,
       title: "E-commerce",
+      src: "/assets/E-commerce.png",
       description:
         "Full-featured e-commerce website with product browsing and cart features",
       longDescription:
@@ -92,6 +93,7 @@ export const Projects = () => {
     {
       id: 3,
       title: "Social-Media-Platform",
+      src: "/assets/social.png",
       description:
         "Interactive social media platform for posting and user interaction",
       longDescription:
@@ -112,10 +114,11 @@ export const Projects = () => {
     {
       id: 4,
       title: "SmartEval",
+      src: "/assets/SmartEval.png",
       description:
-        "Web tool for code evaluation and automated testing workflows",
+        "A comprehensive academic platform combining advanced AI to detect plagiarism, verify handwriting, and evaluate assignments with precision and efficiency. ",
       longDescription:
-        "SmartEval is a JavaScript-powered utility designed to assist with code evaluation scenarios, automated tests, or practice tasks. It showcases dynamic form handling and real-time logic processing in the browser.",
+        "SmartEval is an innovative academic evaluation platform that leverages cutting-edge AI technologies to provide comprehensive assessment solutions. It features advanced plagiarism detection, handwriting verification, and assignment evaluation capabilities, designed to enhance the integrity and efficiency of the educational process.",
       tags: ["JavaScript", "Web"],
       category: ["fullstack"],
       github: "https://github.com/AbhiGurjar0/SmartEval",
@@ -129,105 +132,34 @@ export const Projects = () => {
       color: "from-green-500 to-emerald-500",
       icon: Code2,
     },
+   
+    
     {
       id: 5,
-      title: "LifeLine",
-      description: "Community support platform built with modern JavaScript",
+      title: "Fooddie",
+      description:
+        "Dynamic food delivery platform with interactive UI and order features",
       longDescription:
-        "LifeLine is a community-focused application developed to connect users with supportive tools, resources, or shared content. Built using JavaScript and responsive front-end techniques, it highlights dynamic user interfaces and meaningful interactions.",
-      tags: ["JavaScript", "HTML", "CSS"],
+        "A responsive food delivery application where users can browse restaurants, view menus, and simulate food ordering. Built with modern web technologies, this project highlights user-centric design and real-world interaction workflows.",
+      tags: ["HTML", "CSS", "JavaScript", "EJS"],
       category: ["fullstack"],
-      github: "https://github.com/AbhiGurjar0/LifeLine",
-      live: "https://your-live-link.com",
+      github: "https://github.com/AbhiGurjar0/Fooddie",
+      live: "https://fooddie.onrender.com",
       features: [
-        "Responsive UI",
-        "Interactive elements",
-        "Community-oriented components",
-        "Clean design",
+        "Restaurant browsing interface",
+        "Interactive menu display",
+        "Order simulation UI",
+        "Responsive layout",
       ],
-      color: "from-purple-500 to-pink-500",
-      icon: Sparkles,
+      color: "from-yellow-500 to-red-500",
+      icon: Globe,
     },
+    
+
     {
       id: 6,
-      title: "ExpenseTrackerFullStack",
-      description: "Full-stack expense tracking application to manage finances",
-      longDescription:
-        "A comprehensive expense manager allowing users to add, view, and categorize financial transactions. This project demonstrates CRUD operations, backend integration, and user-friendly budget visualization.",
-      tags: ["EJS", "JavaScript", "Node.js"],
-      category: ["web", "fullstack"],
-      github: "https://github.com/AbhiGurjar0/ExpenseTrackerFullStack",
-      live: "https://your-live-link.com",
-      features: [
-        "Transaction management",
-        "Category filtering",
-        "Backend stored data",
-        "User feedback",
-      ],
-      color: "from-green-500 to-teal-500",
-      icon: Code2,
-    },
-    {
-      id: 7,
-      title: "ExpenceTracker_M",
-      description: "JavaScript-based personal expense tracker application",
-      longDescription:
-        "ExpenceTracker_M is a streamlined personal finance tool that helps track income and expenses. Built with vanilla JavaScript, it emphasizes client-side logic, responsive interactivity, and easy budget management.",
-      tags: ["JavaScript", "Web"],
-      category: ["fullstack"],
-      github: "https://github.com/AbhiGurjar0/ExpenceTracker_M",
-      live: "https://your-live-link.com",
-      features: [
-        "Income & expense logging",
-        "Responsive UI",
-        "Budget overview",
-        "Interactive lists",
-      ],
-      color: "from-yellow-500 to-amber-500",
-      icon: Code2,
-    },
-    {
-      id: 8,
-      title: "Sharp",
-      description: "Utility project showcasing advanced JavaScript features",
-      longDescription:
-        "Sharp is a collection of JavaScript utility functions and components designed to solve common front-end problems. Demonstrates clean logic, modular design, and reusable code patterns.",
-      tags: ["JavaScript"],
-      category: ["web", "frontend"],
-      github: "https://github.com/AbhiGurjar0/Sharp",
-      live: "https://your-live-link.com",
-      features: [
-        "Reusable utility modules",
-        "Clean logic patterns",
-        "Modular functions",
-        "Front-end helpers",
-      ],
-      color: "from-indigo-500 to-blue-500",
-      icon: Code2,
-    },
-    {
-      id: 9,
-      title: "Social-Media-Plateform (other)",
-      description:
-        "Another version clone of social media site for testing features",
-      longDescription:
-        "A variant of a social media application focused on experimenting with feature enhancements, UI flows, and backend interactions. Strengthens understanding of user workflows and database handling.",
-      tags: ["EJS", "JavaScript"],
-      category: ["fullstack"],
-      github: "https://github.com/AbhiGurjar0/Social-Media-Plateform",
-      live: "https://your-live-link.com",
-      features: [
-        "Experiment-driven UI",
-        "Authentication testing",
-        "Feed enhancements",
-        "Responsive design",
-      ],
-      color: "from-teal-500 to-green-500",
-      icon: Target,
-    },
-    {
-      id: 10,
       title: "Animated Website",
+      src: "/assets/Animated.png",
       description:
         "Interactive animated website featuring dynamic UI effects and motion design.",
       longDescription:
@@ -246,8 +178,9 @@ export const Projects = () => {
       icon: Sparkles,
     },
     {
-      id: 11,
+      id:7,
       title: "Dota-2",
+      src: "/assets/Dota2.png",
       description:
         "Interactive web project inspired by the Dota 2 universe with dynamic visuals.",
       longDescription:
@@ -255,7 +188,7 @@ export const Projects = () => {
       tags: ["HTML", "CSS", "JavaScript", "Responsive UI"],
       category: ["web", "frontend"],
       github: "https://github.com/AbhiGurjar0/Dota-2",
-      live: "https://your-live-link.com",
+      live: "#",
       features: [
         "Animated visuals",
         "Responsive layout",
@@ -266,8 +199,9 @@ export const Projects = () => {
       icon: Sparkles,
     },
     {
-      id: 12,
+      id: 8,
       title: "Furniture Website Clone",
+      src: "/assets/Furniture.png",
       description:
         "Clean frontend clone of a modern furniture e-commerce website.",
       longDescription:
@@ -286,7 +220,7 @@ export const Projects = () => {
       icon: Globe,
     },
     {
-      id: 13,
+      id: 9,
       title: "Chess",
       description:
         "Browser-based Chess game with move logic and interactive board.",
@@ -295,7 +229,7 @@ export const Projects = () => {
       tags: ["HTML", "CSS", "JavaScript", "Game Logic"],
       category: ["web", "interactive"],
       github: "https://github.com/AbhiGurjar0/Chess",
-      live: "https://your-live-link.com",
+      live: "#",
       features: [
         "Interactive board",
         "Drag-and-drop pieces",
@@ -306,8 +240,9 @@ export const Projects = () => {
       icon: Sparkles,
     },
     {
-      id: 14,
+      id: 10,
       title: "safeTrail",
+      src: "/assets/Tourist.png",
       description:
         "Web tool focused on secure navigation and travel assistance.",
       longDescription:
@@ -315,7 +250,7 @@ export const Projects = () => {
       tags: ["HTML", "CSS", "JavaScript", "User Experience"],
       category: ["web", "utility"],
       github: "https://github.com/AbhiGurjar0/safeTrail",
-      live: "https://your-live-link.com",
+      live: "#",
       features: [
         "Secure travel navigation",
         "Interactive map UI",
@@ -346,6 +281,11 @@ export const Projects = () => {
         <div className="relative h-48 sm:h-56 overflow-hidden">
           <div
             className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-20`}
+          />
+          <img
+            src={project.src}
+            alt={project.title}
+            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent z-10" />
         </div>

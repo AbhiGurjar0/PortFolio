@@ -23,10 +23,10 @@ const Hero = () => {
 
   const roles = [
     "Full Stack Developer",
-    "React Specialist",
-    "Next.js Expert",
+    "React Developer",
+    "Next.js Developer",
     "UI/UX Enthusiast",
-    "Open Source Contributor",
+    "Web Developer",
   ];
 
   useEffect(() => {
@@ -146,8 +146,6 @@ const Hero = () => {
               intuitive solutions that users love.
             </p>
 
-            
-
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 mb-8">
               <motion.button
@@ -167,15 +165,26 @@ const Hero = () => {
                 whileTap={{ scale: 0.95 }}
                 className="px-6 py-3 rounded-full border border-gray-700 hover:border-cyan-500/50 font-medium flex items-center gap-2 hover:bg-gradient-to-r hover:from-cyan-500/10 hover:to-purple-600/10 transition-all"
               >
-                <Download className="w-5 h-5" />
-                Download CV
+                <a
+                  href="/assets/Abhi_Gurjar.pdf"
+                  download
+                  className="flex justify-center items-center gap-4"
+                >
+                  <Download className="w-5 h-5" />
+                  Download CV
+                </a>
               </motion.button>
             </div>
 
             {/* Social Links */}
             <div className="flex gap-4">
               {[
-                { icon: Github, label: "GitHub", color: "hover:text-gray-300", href: "https://github.com/AbhiGurjar0"},
+                {
+                  icon: Github,
+                  label: "GitHub",
+                  color: "hover:text-gray-300",
+                  href: "https://github.com/AbhiGurjar0",
+                },
                 {
                   icon: Linkedin,
                   label: "LinkedIn",
@@ -271,8 +280,6 @@ const Hero = () => {
             </div>
           </motion.div>
         </div>
-
-       
       </div>
     </motion.section>
   );
